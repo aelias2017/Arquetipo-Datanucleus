@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE orm SYSTEM "file:/javax/jdo/orm.dtd">
+<orm>
+    <package name="com.aelias.entities">
+	    <class name="User" table="User">
+	        <field name="id" column="_id" length="100"/>
+	    </class>
+
+    </package>
+</orm>
